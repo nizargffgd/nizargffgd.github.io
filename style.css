@@ -1,0 +1,67 @@
+/* تحديد خلفية الصفحة */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* تحديد خصائص العنوان */
+  h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* تحديد خصائص الروابط */
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* تحديد خصائص القوائم */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* تحديد خصائص العناصر التي تحتوي على صور */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* تحديد خصائص العناصر التي تحتوي على نص وصور */
+  .box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .box i {
+    color: #0077cc;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .box h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    margin-top: 0;
+  }
+  
